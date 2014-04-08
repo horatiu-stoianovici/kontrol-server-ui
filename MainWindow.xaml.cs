@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Kontrol.Components;
+using Kontrol.Security;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,24 @@ namespace Kontrol_Server_UI
         public MainWindow()
         {
             InitializeComponent();
+
+            DataContext = SecurityManager.Instance;
+        }
+
+        private void unauthorizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (lbAccepted.SelectedItem != null)
+            {
+                SecurityManager.Instance.DenyMAC(lbAccepted.SelectedItem.ToString());
+            }
+        }
+
+        private void authorizeButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (lbUnaccepted.SelectedItem != null)
+            {
+                SecurityManager.Instance.AllowMAC(lbUnaccepted.SelectedItem.ToString());
+            }
         }
     }
 }

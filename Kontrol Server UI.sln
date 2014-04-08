@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontrol Server UI", "Kontrol Server UI.csproj", "{9866E32A-A806-46E4-9531-6A2A2B76DB3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontrol Server", "..\..\..\Dropbox\Kontrol\Windows\Learn TCP\Learn TCP\Kontrol Server.csproj", "{4F8D94E7-1B8F-4282-AA09-D1CCE3CF6E7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9866E32A-A806-46E4-9531-6A2A2B76DB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9866E32A-A806-46E4-9531-6A2A2B76DB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9866E32A-A806-46E4-9531-6A2A2B76DB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8D94E7-1B8F-4282-AA09-D1CCE3CF6E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8D94E7-1B8F-4282-AA09-D1CCE3CF6E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8D94E7-1B8F-4282-AA09-D1CCE3CF6E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8D94E7-1B8F-4282-AA09-D1CCE3CF6E7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
